@@ -22,4 +22,22 @@ while(counter < 12)
 }
 
 
+# for loops
+
+var <- c(1,2,3,4)
+for (i in var) {
+  print(i)
+  
+}
+
+str <- "Muddu"
+for(i in str)
+{
+  print(i)
+}
+
+for(i in 1:5)
+{
+  print(i)
+}
 
