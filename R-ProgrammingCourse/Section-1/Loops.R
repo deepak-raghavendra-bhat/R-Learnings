@@ -41,3 +41,31 @@ for(i in 1:5)
   print(i)
 }
 
+
+#if 
+
+
+
+rm(res)
+a <- 2
+if (a > 1)
+{
+  res <- "TRUE"
+  
+} else {
+  res <- "FALSE"
+  
+}
+
+#elseif
+
+rm(res)
+a <- 2
+if (a != 2)
+{
+  res <- "WOW"
+  
+} else if(a == 2){
+  res <- "BOW"
+  
+}
